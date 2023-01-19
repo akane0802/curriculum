@@ -1,0 +1,40 @@
+/* 最大479px */
+
+@media screen and (max-width: 479px) {
+    .header {
+        width: 200px;
+        height: auto;
+    }
+
+    .container {
+        display: block;
+        width: 60px;
+        height: 160px;
+        margin: 20px 70px 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .left {
+        width: 200px;
+    }
+
+    .right {
+        width: 200px;
+    }
+
+    .rigft-contaier {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+}
